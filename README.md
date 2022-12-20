@@ -32,8 +32,11 @@ The raw model is trained from scratch without distillation.
 After knowledge distillation, the model can preserve most of the performance of the teacher model while extremely reduce the model parameters.
 
                             Generator         Discriminator
+                            
 Teacher model (c=512)         14.3 MB              2.6 MB
+
 Student model (c=64)           618 KB               49 KB
+
 Student model (c=32)           271 KB               17 KB
 
 It has 153 times compressed the discriminator and 52.75 times compressed the generator.
