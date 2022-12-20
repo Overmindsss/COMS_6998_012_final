@@ -9,7 +9,7 @@ We use knowledge distillation method to solve this problem by adding a pixelwise
 
 The repository contains four parts: data, results (in each corresponding folder), python file and jupyter notebooks. The results folder contains multiple trained image result and networks. We use DCGan with 512 channel in the first layer in generator as the default setting.
 
-To use this repository, you can open the jupyter notebooks in /notebooks directly to see the result of each conditional GAN training w or w/o knowledge distillation from a larger model.
+To use this repository, you can open the jupyter notebooks in /notebooks directly to see the result of each conditional GAN training w or w/o knowledge distillation from a larger model. If you want to change dataset, replace 'MNIST' to 'FashionMNIST' in the code.
 
 If you want to execute .py file, just run 
 
