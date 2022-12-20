@@ -11,9 +11,25 @@ The repository contains four parts: data, results, python file and jupyter noteb
 
 To use this repository, you can open the jupyter notebooks in /notebooks directly to see the result of each conditional GAN training w or w/o knowledge distillation from a larger model.
 
-If you want to execute .py file, just run train_without_distillation.py and train_with_distillation.py directly, then check the result in ./py_output/cgan and ./py_output/cgan_distill
+If you want to execute .py file, just run 
+
+`hellow world`
+
+train_without_distillation.py and train_with_distillation.py directly, then check the result in ./py_output/cgan and ./py_output/cgan_distill
 
 To make a comparison, we can compare the following training result:
 
 Teacher model (channel = 512 for the first layer of G)
 ![16715110053331](https://user-images.githubusercontent.com/120711627/208584829-50b5b141-efe9-40a0-a104-4117a052fca3.gif)
+
+
+Student model (channel = 32 for the first layer of G)
+![distill_4](https://user-images.githubusercontent.com/120711627/208585488-8364ec91-b95b-45ea-9ea1-5072d04a66b5.gif)
+
+Raw model (channel = 32 for the first layer of G, train from scratch without distillation)
+![no_distill_4](https://user-images.githubusercontent.com/120711627/208585556-be754711-1286-4d0f-b537-d4d4e4f7f687.gif)
+
+After knowledge distillation, the model can preserve most of the performance of the teacher model while extremely reduce the model parameters.
+
+                    
+Teacher model     
