@@ -13,9 +13,7 @@ To use this repository, you can open the jupyter notebooks in /notebooks directl
 
 If you want to execute .py file, just run 
 
-`hellow world`
-
-train_without_distillation.py and train_with_distillation.py directly, then check the result in ./py_output/cgan and ./py_output/cgan_distill
+`train_without_distillation.py` and `train_with_distillation.py` directly, then check the result in ./py_output/cgan and ./py_output/cgan_distill
 
 To make a comparison, we can compare the following training result:
 
