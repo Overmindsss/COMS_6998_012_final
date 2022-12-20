@@ -37,4 +37,6 @@ Student model (c=64) Generator: 618 KB, Discriminator: 49 KB
 
 Student model (c=32) Generator: 271 KB, Discriminator: 17 KB
 
-It has 153 times compressed the discriminator and 52.75 times compressed the generator.
+It has 153 times compressed the discriminator and 52.75 times compressed the generator for c=512 and c=32.
+
+And 52.95 times compressed the discriminator and 23.13 times compressed the generator for c=512 and c=32.
