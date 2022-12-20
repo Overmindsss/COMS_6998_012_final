@@ -33,7 +33,7 @@ After knowledge distillation, the model can preserve most of the performance of 
 
                             Generator         Discriminator
                             
-Teacher model (c=512)         14.3 MB              2.6 MB
+Teacher model (c=512)\t14.3 MB              2.6 MB
 
 Student model (c=64)           618 KB               49 KB
 
