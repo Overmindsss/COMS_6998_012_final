@@ -7,7 +7,7 @@ We use knowledge distillation method to solve this problem by adding a pixelwise
 
 ![image](https://user-images.githubusercontent.com/120711627/208582366-a4816226-7f8f-479a-b670-89bab553a9e0.png)
 
-The repository contains four parts: data, results, python file and jupyter notebooks. The results folder contains multiple trained image result and networks. We use DCGan with 512 channel in the first layer in generator as the default setting.
+The repository contains four parts: data, results (in each corresponding folder), python file and jupyter notebooks. The results folder contains multiple trained image result and networks. We use DCGan with 512 channel in the first layer in generator as the default setting.
 
 To use this repository, you can open the jupyter notebooks in /notebooks directly to see the result of each conditional GAN training w or w/o knowledge distillation from a larger model.
 
