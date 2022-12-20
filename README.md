@@ -24,10 +24,16 @@ Teacher model (channel = 512 for the first layer of G)
 Student model (channel = 32 for the first layer of G)
 ![distill_4](https://user-images.githubusercontent.com/120711627/208585488-8364ec91-b95b-45ea-9ea1-5072d04a66b5.gif)
 
-Raw model (channel = 32 for the first layer of G, train from scratch without distillation)
+Raw model (channel = 32 for the first layer of G)
 ![no_distill_4](https://user-images.githubusercontent.com/120711627/208585556-be754711-1286-4d0f-b537-d4d4e4f7f687.gif)
+
+The raw model is trained from scratch without distillation.
 
 After knowledge distillation, the model can preserve most of the performance of the teacher model while extremely reduce the model parameters.
 
-                    
-Teacher model     
+                            Generator         Discriminator
+Teacher model (c=512)         14.3 MB              2.6 MB
+Student model (c=64)           618 KB               49 KB
+Student model (c=32)           271 KB               17 KB
+
+It has 153 times compressed the discriminator and 52.75 times compressed the generator.
