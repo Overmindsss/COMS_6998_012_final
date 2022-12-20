@@ -5,4 +5,4 @@ This project aims at finding an approach for Generative Adversarial Networks (GA
 
 We use knowledge distillation method to solve this problem by adding a pixelwise constraint on the output of the student generator and teacher generator.
 
-![image](https://user-images.githubusercontent.com/120711627/208582191-fa9e0713-61b7-4ea7-bba6-270540e04b8b.png)
+![image](https://user-images.githubusercontent.com/120711627/208582307-b0b89bb2-9ac6-4b52-8119-fbde9ea5a510.png)
